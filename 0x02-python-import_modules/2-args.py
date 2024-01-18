@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 # 2-args.py
 # abubkr moaz
+
 if __name__ == "__main__":
+
     """Print the number of and list of arguments."""
+
     import sys
     count = len(sys.argv)
     if count == 0:
